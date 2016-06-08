@@ -1,0 +1,40 @@
+body {
+	color: #320e3b;
+	background: #7f96ff;
+	padding: 25px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+}
+
+.box-label {
+	margin: 0;
+	padding: 5px 10px;
+	display: inline-block;
+	background: #e56399;	
+}
+
+.input {
+	border: 2px solid #7F96FF;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+.button {
+	font-size: 1.25em;
+	padding: 10px;
+	font-weight: 600;
+	background: #7f96ff;
+	border: 2px solid #7f96ff;
+	color: #320e3b
+}
+
+.box + .box, .box + .box-label {
+	margin-top: 25px;
+}
+
+.box {
+	background: #dbfcff;
+	border: 5px solid #e56399;
+	padding: 15px;	
+}
+
